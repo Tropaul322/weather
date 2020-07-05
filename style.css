@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Montserrat,tahoma,sans-serif;
+}
+.map { 
+    position: absolute;
+    top: 25px;
+    right: 50px;
+    bottom: 0;
+    width: 35%;
+    height: 75vh; 
+    border: 4px solid black;
+}
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143)) center center/ cover no-repeat;
+}
+.weather{
+    flex-direction: column;
+    display: flex;
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.icon img{
+    width: 150px;
+    height: 150px;
+}
+.day{
+    text-align: center;
+}
+.location{
+
+    height: 20vh;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.location_zone{
+    text-transform: uppercase;
+    margin-right: 341px;
+}
+.temperature_degree{
+    display: flex;
+    font-weight: 900;
+    font-size: 100px;
+    margin-bottom: 16px;   
+    align-items: center;
+    margin-left: 180px; 
+}
+.temperature_descr{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.temperature{
+    height: 35vh;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.future{
+    height: 27vh;
+    width: 27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+.fut{
+    margin-left: 40px;
+    font-size: 80px;
+}
+.future .temperature_cont .temperature_descr{
+    font-size: 25px;
+}

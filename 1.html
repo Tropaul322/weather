@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i&display=swap&subset=cyrillic"rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather">
+            <div class="location">
+                <div class="location_zone">Zone</div>
+                
+            </div>
+            <div class="temperature">
+                <div class="temperature_cont">
+                    <div id='today' class="day">Now:</div>
+                    <div class="temperature_degree">
+                        <div class="temp">34</div>
+                        <div class="type">&#176</div>
+                        <div class="icon"></div>
+                    </div>
+                    <div class="temperature_descr">
+                    cold
+                    </div>
+                </div>
+            </div>
+            <div class="future">
+                <div class="temperature_cont">
+                    <div id='tomorrow' class="day">Now:</div>
+                    <div class="temperature_degree fut">
+                        <div class="temp" id='1'>34</div>
+                        <div class="type">&#176</div>
+                        <div class="icon" ></div>
+                    </div>
+                    <div class="temperature_descr" id='1.1'>
+                    cold
+                    </div>
+                </div>
+                <div class="temperature_cont">
+                    <div id='tomorrow1' class="day">Now:</div>
+                    <div class="temperature_degree fut">
+                        <div class="temp" id="2">34</div>
+                        <div class="type">&#176</div>
+                        <div class="icon" ></div>
+                    </div>
+                    <div class="temperature_descr" id="2.1">
+                    cold
+                    </div>
+                </div>
+                <div class="temperature_cont">
+                    <div id='tomorrow2' class="day">Now:</div>
+                    <div class="temperature_degree fut">
+                        <div class="temp" id="3">34</div>
+                        <div class="type">&#176</div>
+                        <div class="icon" ></div>
+                    </div>
+                    <div class="temperature_descr" id="3.1">
+                    cold
+                    </div>
+                </div>  
+            </div>
+            </div>
+            <div class="map" id="map"></div>
+        </div>
+
+    <script src="https://momentjs.com/downloads/moment-with-locales.min.js"></script>
+    <script src="script1.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
